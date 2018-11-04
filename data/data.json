@@ -1,0 +1,1194 @@
+{   '100': {   'campus': 'Vancouver',
+               'courseDetails': 'This is a project-based course that '
+                                'introduces the theory and hands-on practice '
+                                'of art and design in digital media. As the '
+                                'introductory course in IAT, this course '
+                                'teaches the core fundamental principles in 2D '
+                                'visual design, sequential and animation '
+                                'design. Students learn the fundamentals of '
+                                'digital photography and vector image '
+                                'creation. The theory is contextualized in '
+                                'contemporary new media design practice and is '
+                                'broadly applicable across disciplines.',
+               'days': 'Th',
+               'email': 'gacevess@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Lab Activities (Weekly)',
+                                 'weight': '15'},
+                             {   'description': 'Class participation (in-class '
+                                                'exercises)',
+                                 'weight': '5'},
+                             {'description': 'Quizzes', 'weight': '15'},
+                             {   'description': 'Project 1 (P01-Digital '
+                                                'Photography)',
+                                 'weight': '20'},
+                             {   'description': 'Project 2 (P02-Sequential '
+                                                'Narrative)',
+                                 'weight': '20'},
+                             {   'description': 'Project 3 (P03-Motion '
+                                                'Graphic)',
+                                 'weight': '25'}],
+               'name': 'Gabriela Aceves-Sepulveda',
+               'prerequisites': '',
+               'startTime': '17:30',
+               'title': 'Digital Image Design',
+               'units': '3'},
+    '102': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduction to fundamental design principles '
+                                'for visual communication. Organized as a '
+                                'continual interplay of theory and practice, '
+                                'students will examine historical, '
+                                'philosophical, perceptual and semiotic '
+                                'approaches to understanding graphic design, '
+                                'and will explore principles of form, such as '
+                                'structure and composition, hierarchy, form, '
+                                'color, space, scale, typography, and '
+                                'legibility and readability through hands-on '
+                                'projects. Traditional time-based and '
+                                'interactive media forms will be compared and '
+                                'contrasted.',
+               'days': 'Th',
+               'email': 'kfz@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'In-Class-Assignments '
+                                                '(Lecture-based)',
+                                 'weight': '5'},
+                             {   'description': 'Project 02: Magazine Spread',
+                                 'weight': '15'},
+                             {   'description': 'Project 03: Personal Design '
+                                                'PortfolioProject',
+                                 'weight': '20'},
+                             {'description': 'Lab Assignments', 'weight': '10'},
+                             {'description': 'Quiz 1 and 2', 'weight': '30'},
+                             {   'description': 'Project 01: Identity/Branding',
+                                 'weight': '20'}],
+               'name': 'Kenneth Zupan',
+               'prerequisites': '',
+               'startTime': '17:30',
+               'title': 'Graphic Design',
+               'units': '3'},
+    '103W': {   'campus': 'Vancouver',
+                'courseDetails': 'Teaches essential skills for negotiating '
+                                 'first-year course work successfully. Covers '
+                                 'the principles, practice and understanding '
+                                 'of effective communication, research, '
+                                 'critical thinking, and teamwork with a focus '
+                                 'on issues central to the practice of IAT as '
+                                 'a profession. Presents opportunities to '
+                                 'practice and develop interpersonal skills '
+                                 'and make that expertise transferable to the '
+                                 'workplace.',
+                'days': 'Th',
+                'email': 'cgibsonb@sfu.ca',
+                'endTime': '21:20',
+                'grades': [   {'description': 'Portfolio', 'weight': '20'},
+                              {   'description': 'Participation & Quizzes',
+                                  'weight': '10'},
+                              {   'description': 'Writing Assignments',
+                                  'weight': '10'},
+                              {   'description': 'Team Presentation',
+                                  'weight': '15'},
+                              {'description': 'Midterm', 'weight': '15'},
+                              {   'description': 'Research Paper',
+                                  'weight': '30'}],
+                'name': 'Chantal Gibson',
+                'prerequisites': '',
+                'startTime': '17:30',
+                'title': 'Design Communication and Collaboration',
+                'units': '3'},
+    '106': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduces the world of 3D thinking, '
+                                'representation and communication, with a '
+                                'focus on spatial thinking. Provides the '
+                                'foundational skills and knowledge needed to '
+                                'understand, create, and use '
+                                'computer-generated 3D representations. Covers '
+                                'the technical bases of representing 3D '
+                                'environments, technical sketching,\n'
+                                'computer-based modelling (Computer-Aided '
+                                'Design) and physical modelling.',
+               'days': 'Th',
+               'email': 'herhan@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Final Project (team)',
+                                 'weight': '15'},
+                             {   'description': 'Lab Assignments, homework '
+                                                '(mix of individual, team)',
+                                 'weight': '35'},
+                             {'description': 'Mid-Term exam', 'weight': '25'},
+                             {'description': 'Final Exam', 'weight': '25'}],
+               'name': 'Halil Erhan',
+               'prerequisites': '',
+               'startTime': '17:30',
+               'title': 'Spatial Thinking and Communicating',
+               'units': '3'},
+    '110': {   'campus': 'Vancouver',
+               'courseDetails': 'Visual communication for art and design in '
+                                'digital media. Students learn the '
+                                'fundamentals of digital raster and vector '
+                                'image creation. Design principles such as '
+                                'form, typography and colour theory as they '
+                                'apply to digital media will be taught. '
+                                'Students will have core projects in digital '
+                                'photography, magazine layout and kinetic '
+                                'typography. Primarily for non-SIAT majors; '
+                                'while SIAT majors may take the course, it '
+                                'does not count for credit for SIAT degree '
+                                'requirements.',
+               'days': 'Th',
+               'email': 'herhan@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Projects', 'weight': '65'},
+                             {   'description': 'In Class Quizzes/ '
+                                                'Participation',
+                                 'weight': '20'},
+                             {   'description': 'Reading Responses',
+                                 'weight': '15'}],
+               'name': 'Halil Erhan',
+               'prerequisites': '',
+               'startTime': '17:30',
+               'title': 'Visual Communication Design',
+               'units': '3'},
+    '167': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduces game genres, structures, and '
+                                'programming methods basic to developing '
+                                'games. Students learn how games are designed '
+                                'and how to program the underlying patterns '
+                                'that facilitate play and engagement. Issues '
+                                'of user interface, skills and competition are '
+                                'discussed as are principles of compelling '
+                                'entertainment for players.',
+               'days': 'Th',
+               'email': 'mhatala@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '40'},
+                             {'description': 'Midterm Exam', 'weight': '15'},
+                             {'description': 'Final Exam', 'weight': '35'},
+                             {   'description': 'Lab Participation and '
+                                                'Challenges',
+                                 'weight': '10'}],
+               'name': 'Marek Hatala',
+               'prerequisites': 'CMPT 166 (or equivalent first year '
+                                'programming course such as CMPT 120, 125, '
+                                '126, 128, 130 or 135).',
+               'startTime': '17:30',
+               'title': 'Digital Games: Genre, Structure, Programming and Play',
+               'units': '3'},
+    '201': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduces topics in human perception, '
+                                'cognition and embodied action as a foundation '
+                                'of design for human use. It explores the '
+                                'practical application of techniques for '
+                                'analyzing diverse interactive situations and '
+                                'designing effective user interfaces. Students '
+                                'will engage in the analysis and design of a '
+                                'simple user interface, gaining detailed '
+                                'knowledge and experience with the standard '
+                                'basic techniques for interface specification, '
+                                'prototyping and evaluation.',
+               'days': 'Th',
+               'email': 'bfisher@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Individual Assessment',
+                                 'weight': '100'}],
+               'name': 'Brian Fisher',
+               'prerequisites': 'Completion of 21 units, including at least '
+                                'one lower division "W" course.',
+               'startTime': '17:30',
+               'title': 'Human-Computer Interaction and Cognition',
+               'units': '3'},
+    '202': {   'campus': 'Vancouver',
+               'courseDetails': 'Explores the computational nature of '
+                                'technology as applied to contemporary art and '
+                                'design. It is a studio-based, media '
+                                'production course that explores new forms of '
+                                'art and design that are mediated by or '
+                                'modeled after computing processes as opposed '
+                                'to transforming or digitizing existing forms.',
+               'days': 'Th',
+               'email': 'sclement@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Projects', 'weight': '80'},
+                             {   'description': 'Lab attendance and activities',
+                                 'weight': '5'},
+                             {   'description': 'Lecture attendance and '
+                                                'activities',
+                                 'weight': '5'},
+                             {'description': 'Mid term exam', 'weight': '10'}],
+               'name': 'Susan Clements-Vivian',
+               'prerequisites': 'IAT 100 and a minimum of 21 units.',
+               'startTime': '17:30',
+               'title': 'New Media Images',
+               'units': '3'},
+    '206W': {   'campus': 'Vancouver',
+                'courseDetails': 'Introduces a discursive framework for media, '
+                                 'design and cultural interfaces enabling '
+                                 'students to interpret, negotiate, and engage '
+                                 'with new media with an awareness of the '
+                                 'significance of cultural and contextual '
+                                 'difference. Assessment is based on written '
+                                 'and project work.',
+                'days': 'Th',
+                'email': 'gacevess@sfu.ca',
+                'endTime': '21:20',
+                'grades': [   {   'description': 'Reading Quizzes',
+                                  'weight': '30'},
+                              {   'description': 'Group Presentations',
+                                  'weight': '15'},
+                              {   'description': 'Term Paper Proposal',
+                                  'weight': '10'},
+                              {   'description': 'Term Paper Lit Review',
+                                  'weight': '10'},
+                              {   'description': 'Term Paper Peer Review',
+                                  'weight': '10'},
+                              {   'description': 'Final Term Paper',
+                                  'weight': '25'}],
+                'name': 'Gabriela Aceves-Sepulveda',
+                'prerequisites': 'Completion of 21 units.',
+                'startTime': '17:30',
+                'title': 'Media Across Cultures',
+                'units': '3'},
+    '208': {   'campus': 'Vancouver',
+               'courseDetails': 'An overview of the various forms and '
+                                'languages of drawing as both a critical and '
+                                'creative research tool.  Activities and '
+                                'projects in each unit offer opportunities to '
+                                'understand and apply drawing as a medium for '
+                                'visual thinking and conceptualization. '
+                                'Related social and gender concerns are '
+                                'investigated to contextualize figurative '
+                                'representations within a broader cultural '
+                                'framework.',
+               'days': 'Th',
+               'email': 'sclement@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Research Project',
+                                 'weight': '25'},
+                             {   'description': 'Mid-Term Project',
+                                 'weight': '25'},
+                             {'description': 'Journal Project', 'weight': '30'},
+                             {'description': 'Theory Exam', 'weight': '20'}],
+               'name': 'Susan Clements-Vivian',
+               'prerequisites': 'Completion of 21 units.',
+               'startTime': '17:30',
+               'title': 'Drawing as Inquiry',
+               'units': '3'},
+    '210': {   'campus': 'Vancouver',
+               'courseDetails': 'Reviews the history of games, tracing the '
+                                'evolution of game design from board and card '
+                                'games through the latest electronic products. '
+                                'Examines the medium of games through various '
+                                'lenses: games as rules (game design), games '
+                                'as play (game experience), and games as '
+                                'culture (culture within games, and role of '
+                                'games and game cultures). ',
+               'days': 'Th',
+               'email': 'sclement@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Short in-class & homework '
+                                                'projects, quizzes, worksheets',
+                                 'weight': '25'},
+                             {   'description': 'Analysis of Board Game',
+                                 'weight': '10'},
+                             {   'description': 'Analysis of Electronic Game',
+                                 'weight': '15'},
+                             {   'description': 'Term Paper - selected topic',
+                                 'weight': '20'},
+                             {'description': 'Final Exam', 'weight': '30'}],
+               'name': 'Susan Clements-Vivian',
+               'prerequisites': 'Completion of 21 units.',
+               'startTime': '17:30',
+               'title': 'Introduction to Game Studies: Theory and Design',
+               'units': '3'},
+    '222': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduces key concepts within contemporary '
+                                'digital art practices. Issues surrounding '
+                                'digital art will be explored through '
+                                'readings, the study of artworks, and the '
+                                'creation of their own artistic projects.',
+               'days': 'Th',
+               'email': 'nrajah@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Assignment #1 - Research '
+                                                'Report (Individual)',
+                                 'weight': '15'},
+                             {   'description': 'Assignment #2 - Research '
+                                                'Report Response and '
+                                                'Interaction Diagram '
+                                                '(Individual)',
+                                 'weight': '20'},
+                             {   'description': 'Assignment #3 - Reading '
+                                                'Summaries + Discussion '
+                                                '(Individual)',
+                                 'weight': '10'},
+                             {   'description': 'Assignment #4 - Interactive '
+                                                'Project (Team)',
+                                 'weight': '40'},
+                             {   'description': 'Assignment #5 - Analysis on '
+                                                'Interactive Project '
+                                                '(Individual)',
+                                 'weight': '5'},
+                             {   'description': 'In Lab Participation '
+                                                '(Individual)',
+                                 'weight': '5'},
+                             {   'description': 'In Lecture Participation '
+                                                '(Individual)',
+                                 'weight': '5'}],
+               'name': 'Niranjan Rajah',
+               'prerequisites': 'Completion of 21 units.',
+               'startTime': '17:30',
+               'title': 'Interactive Arts',
+               'units': '3'},
+    '233': {   'campus': 'Vancouver',
+               'courseDetails': 'Designing and understanding spaces used by '
+                                'people. The iterative process of making and '
+                                'criticizing, experiencing and analyzing '
+                                'spatial form. Compositional ideas for '
+                                'form-making. Critical thinking applied to '
+                                'design. Computers are the principal medium '
+                                'used in this course for form-making and '
+                                'visualization.',
+               'days': 'Th',
+               'email': 'rgtaylor@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Project 1 + Quiz - Individual '
+                                                '(1)/ 1 week',
+                                 'weight': '10'},
+                             {   'description': 'Project 2 - Individual (1)/1 '
+                                                'week',
+                                 'weight': '5'},
+                             {   'description': 'Project 3 - Small team (3)/ 1 '
+                                                'week',
+                                 'weight': '5'},
+                             {   'description': 'Project 4 - Medium team '
+                                                '(4-5)/3 weeks',
+                                 'weight': '20'},
+                             {   'description': 'Project 5 + Quiz - Medium '
+                                                'team (4-5)/ 1 week',
+                                 'weight': '10'},
+                             {   'description': 'Project 6 - Medium team '
+                                                '(4-5)/1 week',
+                                 'weight': '5'},
+                             {   'description': 'Project 7 + Quiz - Large team '
+                                                '(5-6)/ 6 week',
+                                 'weight': '45'}],
+               'name': 'Russell Taylor',
+               'prerequisites': 'Completion of 21 units and IAT 106, and IAT '
+                                '102 or an approved course in design.',
+               'startTime': '17:30',
+               'title': 'Spatial Design',
+               'units': '3'},
+    '235': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduces theory and practice of designing '
+                                'visual representations of information. '
+                                'Students will learn to visually translate '
+                                'textual, numerical and evidentiary '
+                                'information so that it can be communicated to '
+                                'diverse user communities and contexts. An '
+                                'emphasis will be on understanding how the '
+                                'meaning of images can change over time and '
+                                'across contexts and cultures. Beginning with '
+                                'photographic images, interactive charts, '
+                                'graphs, and maps, projects progress to more '
+                                'complex information in media forms ranging '
+                                'from advanced aspects of the web to '
+                                'interactive 3D visualizations. The '
+                                'relationship between visual display is '
+                                'explored in relation to its technology of '
+                                'creation, including code and information '
+                                'architecture.',
+               'days': 'Th',
+               'email': 'mfa13@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Participation', 'weight': '5'},
+                             {'description': 'Quizzes', 'weight': '20'},
+                             {'description': 'Projects', 'weight': '75'}],
+               'name': 'Michael Filimowicz',
+               'prerequisites': 'Completion of 21 units and IAT 102.',
+               'startTime': '17:30',
+               'title': 'Information Design',
+               'units': '3'},
+    '244': {   'campus': 'Vancouver',
+               'courseDetails': 'An introduction to digital photography that '
+                                'is open to beginners in which students will '
+                                'learn comprehensive skills in camera work, '
+                                'studio lighting and image post-processing. '
+                                'The focus of the course is on developing a '
+                                'final portfolio that demonstrates a wide '
+                                'range of technical, aesthetic, stylistic, '
+                                'genre and conceptual approaches to digital '
+                                'photography. Students are encouraged to '
+                                'experiment and develop their own eye and '
+                                'approaches, while learning the fundamentals '
+                                'of digital image production and workflows, '
+                                'including output for web and print.',
+               'days': 'Th',
+               'email': 'mfa13@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Regular Exercises, Projects '
+                                                'and Presentations',
+                                 'weight': '50'},
+                             {   'description': 'Final Digital Photography '
+                                                'Portfolio of 20 images',
+                                 'weight': '30'},
+                             {'description': 'Final Exam', 'weight': '20'}],
+               'name': 'Michael Filimowicz',
+               'prerequisites': 'Completion of 21 units.',
+               'startTime': '17:30',
+               'title': 'Digital Photography I:  Post Photography',
+               'units': '3'},
+    '265': {   'campus': 'Vancouver',
+               'courseDetails': 'Using cases from topics such as animation, '
+                                'cinema, music and design, this course '
+                                'introduces a variety of programming tools and '
+                                'techniques. Practical use of multimedia '
+                                'scripting languages and authoring '
+                                'environments is covered in the context of a '
+                                'series of composition and design projects. '
+                                'Code libraries and programming techniques for '
+                                'specific media will be introduced. Assessment '
+                                'will be based on both programming and the '
+                                'expressive use of programs in their case '
+                                'context.',
+               'days': 'Th',
+               'email': 'shaw@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '45'},
+                             {   'description': 'Lab Challenges and '
+                                                'Participation',
+                                 'weight': '5'},
+                             {'description': 'Quizzes', 'weight': '15'},
+                             {'description': 'Final Exam', 'weight': '35'}],
+               'name': 'Christopher Shaw',
+               'prerequisites': 'Completion of 21 units and IAT 167 and one of '
+                                'MATH 130, MACM 101, MATH 150, MATH 151, MATH '
+                                '154, or MATH 157.',
+               'startTime': '17:30',
+               'title': 'Multimedia Programming for Art and Design',
+               'units': '3'},
+    '267': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduction to the core technologies and '
+                                'systems used in media-rich interactive '
+                                'environments, including computer hardware, '
+                                'operating systems, input and output '
+                                'technologies, networking and media. The '
+                                'concepts will be examined by working in a '
+                                'high-level media programming environment.',
+               'days': 'Th',
+               'email': 'hserban@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '10'},
+                             {'description': 'Participation', 'weight': '10'},
+                             {'description': 'Quizzes', 'weight': '15'},
+                             {   'description': 'Programming Project',
+                                 'weight': '30'},
+                             {'description': 'Exam', 'weight': '35'}],
+               'name': 'Helmine Serban',
+               'prerequisites': 'Completion of 21 units and IAT 167 and one of '
+                                'MATH 130, MACM 101, MATH 150, MATH 151, MATH '
+                                '154, or MATH 157. Recommended: IAT 265 or '
+                                'other second year programming course.',
+               'startTime': '17:30',
+               'title': 'Introduction to Technological Systems',
+               'units': '3'},
+    '271': {   'campus': 'Vancouver',
+               'courseDetails': 'First term of work experience for students in '
+                                'the SIAT Co-operative Education Program. '
+                                'Units from this course do not count towards '
+                                'completion of an SFU degree. Graded as '
+                                'pass/fail. Students with credit for WKTM 100 '
+                                'cannot complete this course for further '
+                                'credit.',
+               'days': 'Th',
+               'email': '',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '10'},
+                             {'description': 'Participation', 'weight': '10'},
+                             {'description': 'Quizzes', 'weight': '15'},
+                             {   'description': 'Programming Project',
+                                 'weight': '30'},
+                             {'description': 'Exam', 'weight': '35'}],
+               'name': 'Stephanie Greaves',
+               'prerequisites': '',
+               'startTime': '17:30',
+               'title': 'Co-op Practicum I',
+               'units': '3'},
+    '272': {   'campus': 'Vancouver',
+               'courseDetails': 'Second term of work experience for students '
+                                'in the SIAT Co-operative Education Program. '
+                                'Units from this course do not count towards '
+                                'completion of an SFU degree. Graded as '
+                                'pass/fail.',
+               'days': 'Th',
+               'email': '',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '10'},
+                             {'description': 'Participation', 'weight': '10'},
+                             {'description': 'Quizzes', 'weight': '15'},
+                             {   'description': 'Programming Project',
+                                 'weight': '30'},
+                             {'description': 'Exam', 'weight': '35'}],
+               'name': 'Stephanie Greaves',
+               'prerequisites': 'IAT 271 (or WKTM 100).',
+               'startTime': '17:30',
+               'title': 'Co-op Practicum II',
+               'units': '3'},
+    '309W': {   'campus': 'Vancouver',
+                'courseDetails': 'Develops critical thinking and writing '
+                                 'strategies adaptable to professional '
+                                 'communications in design, media arts and '
+                                 'technology.',
+                'days': 'Th',
+                'email': 'cgibsonb@sfu.ca',
+                'endTime': '21:20',
+                'grades': [   {   'description': 'Major Research Paper',
+                                  'weight': '40'},
+                              {   'description': 'Writing Portfolio',
+                                  'weight': '15'},
+                              {   'description': 'Writing Assignments',
+                                  'weight': '10'},
+                              {'description': 'Midterm', 'weight': '20'},
+                              {   'description': 'Quizzes and Workshop '
+                                                 'Participation',
+                                  'weight': '15'}],
+                'name': 'Chantal Gibson',
+                'prerequisites': '48 units including a lower division W '
+                                 'course.',
+                'startTime': '17:30',
+                'title': 'Writing Methods for Research',
+                'units': '3'},
+    '312': {   'campus': 'Vancouver',
+               'courseDetails': 'Examines the discipline of game design. Games '
+                                'are studied across three analytical '
+                                'frameworks: games as rules (formal system), '
+                                'games as play (experiential system), games as '
+                                'culture (social system). Includes analytical '
+                                'and practical exercises in game design.',
+               'days': 'Th',
+               'email': 'cgibsonb@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Assignments (individual)',
+                                 'weight': '30'},
+                             {   'description': 'Projects (team work)',
+                                 'weight': '40'},
+                             {   'description': 'Reading Questions',
+                                 'weight': '15'},
+                             {   'description': 'Attendance & Participation',
+                                 'weight': '15'}],
+               'name': 'Chantal Gibson',
+               'prerequisites': 'Completion of 48 units, including IAT 265.',
+               'startTime': '17:30',
+               'title': 'Foundations of Game Design',
+               'units': '3'},
+    '313': {   'campus': 'Vancouver',
+               'courseDetails': 'Explores the role of narrative in various '
+                                'media and New Media environments, from '
+                                'traditional linear environments and '
+                                'multi-linear and networked media '
+                                'environments. Examines the relationship of '
+                                'narrative elements in the light of the '
+                                'practice and the aesthetics of New Media. It '
+                                'will include an overview of New Media '
+                                'theorists.',
+               'days': 'Th',
+               'email': 'mfa13@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Exercises, Quizzes and '
+                                                'Project Milestone '
+                                                'Deliverables',
+                                 'weight': '70'},
+                             {'description': 'Final Project', 'weight': '30'}],
+               'name': 'Michael Filimowicz',
+               'prerequisites': 'Completion of 48 units.',
+               'startTime': '17:30',
+               'title': 'Narrative and New Media',
+               'units': '3'},
+    '320': {   'campus': 'Vancouver',
+               'courseDetails': 'Explores ideas of embodiment, knowledge, and '
+                                'space within the human relationship to '
+                                'technology. Throughout this course, students '
+                                'will construct and analyze contemporary and '
+                                'historical models of bodily interaction with '
+                                'machines, understand physical practices of '
+                                'embodiment, and apply these concepts to '
+                                'representation, design, and the production of '
+                                'artistic interfaces.',
+               'days': 'Th',
+               'email': 'mfa13@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Participation (Individual)',
+                                 'weight': '10'},
+                             {   'description': '3 Assignments (Individual)',
+                                 'weight': '30'},
+                             {   'description': 'Group Sketch & Early '
+                                                'Prototype (Individual Mark)',
+                                 'weight': '20'},
+                             {   'description': 'Final Project (Group)',
+                                 'weight': '40'}],
+               'name': 'Michael Filimowicz',
+               'prerequisites': 'Completion of 48 units, including IAT 267 and '
+                                '222.',
+               'startTime': '17:30',
+               'title': 'Body Interface',
+               'units': '3'},
+    '333': {   'campus': 'Vancouver',
+               'courseDetails': 'Examines concepts of design practice and '
+                                'related design methods for interaction '
+                                'designers. Design methods include '
+                                'ethnography, personas, design games, '
+                                'role-playing, scenarios, participatory '
+                                'workshops, and prototyping. ',
+               'days': 'Th',
+               'email': 'mfa13@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Method Project 1',
+                                 'weight': '10'},
+                             {   'description': 'Method Project 2',
+                                 'weight': '10'},
+                             {   'description': 'Method Project 3',
+                                 'weight': '10'},
+                             {   'description': 'Method Project 4',
+                                 'weight': '10'},
+                             {   'description': 'Method Project 5',
+                                 'weight': '10'},
+                             {   'description': 'Method Project 6',
+                                 'weight': '10'},
+                             {   'description': '3 Concept '
+                                                'Slides/Storyboards/Journey '
+                                                'Framework',
+                                 'weight': '10'},
+                             {   'description': '2 Concepts, 2 Video Scenarios',
+                                 'weight': '10'},
+                             {   'description': 'Final Concept Presentation + '
+                                                'Mockup',
+                                 'weight': '20'}],
+               'name': 'Michael Filimowicz',
+               'prerequisites': 'Completion of 48 credits, including IAT 265. '
+                                'Recommended: IAT 102 or 233.',
+               'startTime': '17:30',
+               'title': 'Interaction Design Methods',
+               'units': '3'},
+    '334': {   'campus': 'Vancouver',
+               'courseDetails': 'Provides an introduction to the art and '
+                                'design of human-computer interfaces, design '
+                                'methods, prototyping and evaluation of user '
+                                'interfaces. Examines issues of interactivity '
+                                'and its relation to human contexts and '
+                                'technological systems. The role of aesthetic, '
+                                'symbolic, affective and cultural factors will '
+                                'be assessed in concert with scientific and '
+                                'technological issues. The class is primarily '
+                                'focused on visual interfaces on computer '
+                                'monitors and hand-held devices, but '
+                                'culminates with considerations of '
+                                'increasingly physical interactions in '
+                                'ubiquitous environments.',
+               'days': 'Th',
+               'email': 'wstuerzl@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Individual Projects & '
+                                                'Assignments',
+                                 'weight': '30'},
+                             {'description': 'Quizzes', 'weight': '20'},
+                             {'description': 'Group Projects', 'weight': '50'}],
+               'name': 'Wolfgang Stuerzlinger',
+               'prerequisites': 'Completion of 48 units, including IAT 235.',
+               'startTime': '17:30',
+               'title': 'Interface Design',
+               'units': '3'},
+    '336': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduces material properties and '
+                                'performance in the context of interactive '
+                                'artifacts. Covers criteria for material '
+                                'selection, including durability, '
+                                'environmental effects, tactile properties, '
+                                'manufacturing processes, compatibility and '
+                                'effects of particular forms of use.',
+               'days': 'Th',
+               'email': 'kfz@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'In-Lecture Assignments',
+                                 'weight': '5'},
+                             {   'description': 'Lab Assignments (in-class and '
+                                                'take home)',
+                                 'weight': '30'},
+                             {'description': 'Final Project', 'weight': '30'},
+                             {'description': 'Quizzes', 'weight': '30'},
+                             {   'description': 'SolidSpace/Prototyping Skills '
+                                                'Exercise',
+                                 'weight': '5'}],
+               'name': 'Kenneth Zupan',
+               'prerequisites': 'Prerequisite: IAT 233.',
+               'startTime': '17:30',
+               'title': 'Materials in Design',
+               'units': '3'},
+    '339': {   'campus': 'Vancouver',
+               'courseDetails': 'Advanced theory and implementation of web '
+                                'media from a design perspective. Students '
+                                'will design and develop web media that '
+                                'focuses on communication and design issues '
+                                'for a variety of users. This course will '
+                                'address design methods and approaches for '
+                                'technical aspects such as content management, '
+                                'responsive design, and server-side support.',
+               'days': 'Th',
+               'email': 'kfz@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Participation', 'weight': '5'},
+                             {'description': 'Quizzes', 'weight': '20'},
+                             {'description': 'Group Projects', 'weight': '30'},
+                             {   'description': 'Individual Projects',
+                                 'weight': '45'}],
+               'name': 'Kenneth Zupan',
+               'prerequisites': 'IAT 235 and IAT 265.',
+               'startTime': '17:30',
+               'title': 'Web Design and Development',
+               'units': '3'},
+    '340': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduction to theory and practice of sound '
+                                "design. Explores sound's relationship to "
+                                'moving images, installation, performance, '
+                                'video games, user interfaces and Web sites. '
+                                'Includes audio production, post-production, '
+                                'mixing and mastering, beginning programming '
+                                'for digital signal processing, sound '
+                                'synthesis and sound interaction.',
+               'days': 'Th',
+               'email': 'mfa13@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Quizzes', 'weight': '20'},
+                             {   'description': 'Projects and Exercises',
+                                 'weight': '80'}],
+               'name': 'Michael Filimowicz',
+               'prerequisites': 'Completion of 24 units. Recommended: IAT 202 '
+                                'New Media Images.',
+               'startTime': '17:30',
+               'title': 'Sound Design',
+               'units': '3'},
+    '343': {   'campus': 'Vancouver',
+               'courseDetails': 'An introduction to techniques for 3D computer '
+                                'animation such as keyframing, performance '
+                                'animation, procedural methods, motion '
+                                'capture, and simulation. The course also '
+                                'includes an overview of story-boarding, scene '
+                                'composition, lighting and sound track '
+                                'generation. The course will explore current '
+                                'research topics in computer animation such as '
+                                'facial animation, behavioral animation, '
+                                'artificial life and interactive systems.',
+               'days': 'Th',
+               'email': 'sdipaola@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Final Team Project',
+                                 'weight': '38'},
+                             {'description': '2 Midterm Exams', 'weight': '20'},
+                             {   'description': 'Individual 3D CGI assignments',
+                                 'weight': '25'},
+                             {   'description': 'Class and Lab '
+                                                'Participation/Reviews',
+                                 'weight': '17'}],
+               'name': 'Steve DiPaola',
+               'prerequisites': 'Minimum of 24 units, including MATH 130 or '
+                                'MACM 101 or MATH 150 or MATH 151 or MATH 154 '
+                                'or MATH 157.',
+               'startTime': '17:30',
+               'title': 'Animation',
+               'units': '3'},
+    '344': {   'campus': 'Vancouver',
+               'courseDetails': 'Reviews and consolidates the fundamentals of '
+                                'digital video production, including camera '
+                                'and composition skills, the role of sound, '
+                                'lighting, and continuity and montage editing. '
+                                'Students will review and analyze works from '
+                                'traditional cinema and from contemporary '
+                                'digital video. The course will reinforce '
+                                "fundamental skills and extend the student's "
+                                'abilities to use a range of digital '
+                                'production, post-production, and presentation '
+                                'techniques.',
+               'days': 'Th',
+               'email': 'sclement@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Video #1: Visual Effects '
+                                                'Experimental Video '
+                                                '(Individual)',
+                                 'weight': '20'},
+                             {   'description': 'Video #2:  Documentary or '
+                                                'Continuity Narrative Video '
+                                                '(Team)',
+                                 'weight': '40'},
+                             {'description': 'Online Portfolio', 'weight': '5'},
+                             {   'description': 'Weekly Deliverables',
+                                 'weight': '20'},
+                             {'description': 'Midterm', 'weight': '15'}],
+               'name': 'Susan Clements-Vivian',
+               'prerequisites': 'Minimum of 48 units and IAT 202 or other '
+                                'approved digital video course.',
+               'startTime': '17:30',
+               'title': 'Moving Images',
+               'units': '3'},
+    '355': {   'campus': 'Vancouver',
+               'courseDetails': 'Focuses on the design and implementation of '
+                                'interactive computer visualization techniques '
+                                'for the analysis, comprehension, and '
+                                'explanation of large collections of abstract '
+                                'information. The application of principles '
+                                'from perception, information visualization, '
+                                'interaction and visual analytics will be '
+                                'covered. Introduces tools for programming '
+                                'geometric information and displaying the '
+                                'results. Emphasizes development of practical '
+                                'skills in using graphics libraries and tools: '
+                                'students will develop programming experience '
+                                'with relevant examples and techniques.',
+               'days': 'Th',
+               'email': 'lyn@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '60'},
+                             {'description': 'Project', 'weight': '20'},
+                             {'description': 'Quizzes', 'weight': '20'}],
+               'name': 'Lyn Bartram',
+               'prerequisites': 'IAT 201 and IAT 267 and either IAT 265 or '
+                                'CMPT 225 or other approved second year '
+                                'programming course. Recommended: IAT 235.',
+               'startTime': '17:30',
+               'title': 'Introduction to Visual Analytics',
+               'units': '3'},
+    '359': {   'campus': 'Vancouver',
+               'courseDetails': 'An introduction to mobile computing and the '
+                                'development of applications for mobile '
+                                'environments. The three areas that will one '
+                                'covered in the course are mobile '
+                                'technologies, application development and '
+                                'user interaction in a mobile setting. '
+                                'Students will make used of mobile application '
+                                'frameworks and development environments to '
+                                'develop their own application and project, '
+                                'while reinforcing concepts covered in '
+                                'lecture. Topics covered include mobile '
+                                'development environments, user interfaces, '
+                                'user experience and application development '
+                                'guidelines, gesture recognition, location, '
+                                'sensors, and graphics, and other, as will be '
+                                'outlines in the weekly schedule. ',
+               'days': 'Th',
+               'email': 'hserban@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '25%'},
+                             {'description': 'Participation', 'weight': '5%'},
+                             {'description': 'Quizzes', 'weight': '15%'},
+                             {   'description': 'Programming Project',
+                                 'weight': '25%'},
+                             {'description': 'Exam', 'weight': '30%'}],
+               'name': 'Helmine Serban',
+               'prerequisites': 'Completion of 48 units, including IAT 265 and '
+                                'one of IAT 267 or another IAT 200 level '
+                                'programming course.',
+               'startTime': '17:30',
+               'title': 'Mobile Computing',
+               'units': '3'},
+    '373': {   'campus': 'Vancouver',
+               'courseDetails': 'Third term of work experience for students in '
+                                'the SIAT Co-operative Education Program. '
+                                'Units from this course do not count towards '
+                                'completion of an SFU degree. Graded as '
+                                'pass/fail.',
+               'days': 'Th',
+               'email': '',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '25%'},
+                             {'description': 'Participation', 'weight': '5%'},
+                             {'description': 'Quizzes', 'weight': '15%'},
+                             {   'description': 'Programming Project',
+                                 'weight': '25%'},
+                             {'description': 'Exam', 'weight': '30%'}],
+               'name': 'Stephanie Greaves',
+               'prerequisites': 'IAT 272 (or WKTM 200).',
+               'startTime': '17:30',
+               'title': 'Co-op Practicum III',
+               'units': '3'},
+    '374': {   'campus': 'Vancouver',
+               'courseDetails': 'Fourth term of work experience for students '
+                                'in the SIAT Co-operative Education Program. '
+                                'Units from this course do not count towards '
+                                'completion of an SFU degree. Graded as '
+                                'pass/fail.',
+               'days': 'Th',
+               'email': '',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '25%'},
+                             {'description': 'Participation', 'weight': '5%'},
+                             {'description': 'Quizzes', 'weight': '15%'},
+                             {   'description': 'Programming Project',
+                                 'weight': '25%'},
+                             {'description': 'Exam', 'weight': '30%'}],
+               'name': 'Stephanie Greaves',
+               'prerequisites': 'Prerequisite: IAT 373 (or WKTM 300).',
+               'startTime': '17:30',
+               'title': 'Co-op Practicum IV',
+               'units': '3'},
+    '375': {   'campus': 'Vancouver',
+               'courseDetails': 'Optional fifth term of work experience for '
+                                'students in the SIAT Co-operative Education '
+                                'Program. Units from this course do not count '
+                                'towards completion of an SFU degree. Graded '
+                                'as pass/fail.',
+               'days': 'Th',
+               'email': '',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignments', 'weight': '25%'},
+                             {'description': 'Participation', 'weight': '5%'},
+                             {'description': 'Quizzes', 'weight': '15%'},
+                             {   'description': 'Programming Project',
+                                 'weight': '25%'},
+                             {'description': 'Exam', 'weight': '30%'}],
+               'name': 'Stephanie Greaves',
+               'prerequisites': 'IAT 374 (or WKTM 400)',
+               'startTime': '17:30',
+               'title': 'Co-op Practicum V',
+               'units': '3'},
+    '380': {   'campus': 'Vancouver',
+               'courseDetails': 'Specific details of courses to be offered '
+                                'will be published prior to registration each '
+                                'semester. This course can be repeated for '
+                                'credit up to a maximum of three times, if '
+                                'topic studied is different. Variable units: '
+                                '1,2,3,4,5,6,7,8,9.',
+               'days': 'Th',
+               'email': 'ppa12@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Quizz', 'weight': '30'},
+                             {   'description': 'MAX assignments',
+                                 'weight': '70'}],
+               'name': 'Philippe Pasquier',
+               'prerequisites': 'Completion of 45 units.',
+               'startTime': '17:30',
+               'title': 'Special Topics in Interactive Arts and Technology '
+                        '(Arts)',
+               'units': '3'},
+    '395': {   'campus': 'Vancouver',
+               'courseDetails': 'The first of three courses in the North '
+                                'Europe Design Field School prepares qualified '
+                                'students to explore the contexts and '
+                                'interconnectedness of design, innovation and '
+                                'technology in selected Northern Europe design '
+                                'organizations, schools and other '
+                                'institutions.',
+               'days': 'Th',
+               'email': 'rgtaylor@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Quizz', 'weight': '30'},
+                             {   'description': 'MAX assignments',
+                                 'weight': '70'}],
+               'name': 'Russell Taylor',
+               'prerequisites': '45 units, including IAT 338. Corequisite: IAT '
+                                '396 and IAT 397.',
+               'startTime': '17:30',
+               'title': 'North Europe Design Field School: contexts of design',
+               'units': '3'},
+    '431': {   'campus': 'Vancouver',
+               'courseDetails': 'Provides students with the opportunity to '
+                                'experiment with designing in various '
+                                'non-normative frameworks provided by cultural '
+                                'studies, critical theory and phenomenology. '
+                                "Students will examine design's potential for "
+                                'cultural, social and ethical critique of '
+                                'emerging technologies and society. Rather '
+                                'than merely illustrating theoretical '
+                                'positions, this examination involves enacting '
+                                'and embodying differing theoretical '
+                                'positions, thereby rendering criticism '
+                                'productive. Individual design expertise and '
+                                'voice is emphasized.',
+               'days': 'Th',
+               'email': 'wodom@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Individual Assignments',
+                                 'weight': '40'},
+                             {'description': 'Group Projects', 'weight': '60'}],
+               'name': 'William Odom',
+               'prerequisites': 'Completion of 60 units.',
+               'startTime': '17:30',
+               'title': 'Speculative Design',
+               'units': '3'},
+    '432': {   'campus': 'Vancouver',
+               'courseDetails': 'Examines evaluation concepts and methods for '
+                                'designers. Introduces a range of evaluation '
+                                'approaches including informal usability '
+                                'studies, lab experiments, field studies, and '
+                                'analytically-based evaluations. Students will '
+                                'explore techniques for feedback including '
+                                'usability tests, observation, interviews, '
+                                'heuristic reviews, and discursive '
+                                'evaluations. Underlying concepts of '
+                                'evaluation including scientific '
+                                'experimentation, ethnography, phenomenology, '
+                                'and aesthetics will be discussed. Students '
+                                'will learn how to design and implement '
+                                'appropriate evaluation studies for a range of '
+                                'design projects.',
+               'days': 'Th',
+               'email': 'wodom@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Individual Assignments',
+                                 'weight': '40'},
+                             {   'description': 'Group Assignments',
+                                 'weight': '30'},
+                             {'description': 'Exam', 'weight': '30'}],
+               'name': 'William Odom',
+               'prerequisites': 'Completion of 60 units. Recommended: IAT 201 '
+                                'and 235.',
+               'startTime': '17:30',
+               'title': 'Design Evaluation',
+               'units': '3'},
+    '438': {   'campus': 'Vancouver',
+               'courseDetails': 'Develops programming and scripting skills for '
+                                'developing combined software, and hardware '
+                                'prototype versions of interactive objects and '
+                                'environments. Covers the art and design of '
+                                'interactive objects and environments. '
+                                'Methodologies emphasizing embodiment, '
+                                'kinesthetics and haptics are introduced by '
+                                'combining theory and practice. Students '
+                                'develop programming skills for developing '
+                                'working prototypes comprised of software, '
+                                'sensors, and hardware.',
+               'days': 'Th',
+               'email': 'rgtaylor@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Project 1 - small team (3-4)/ '
+                                                '2 weeks + quizzes',
+                                 'weight': '25'},
+                             {   'description': 'Project 2 - small team ( 3-4) '
+                                                '/ 2 weeks',
+                                 'weight': '15'},
+                             {   'description': 'Project 3 - large team (5) + '
+                                                'quiz/ 5 weeks',
+                                 'weight': '35'},
+                             {   'description': 'Project 4 - large team (5-6)/ '
+                                                '4 weeks',
+                                 'weight': '25'}],
+               'name': 'Russell Taylor',
+               'prerequisites': 'Completion of 60 units, including IAT 233, '
+                                '235 and 267.',
+               'startTime': '17:30',
+               'title': 'Interactive Objects and Environments',
+               'units': '3'},
+    '443': {   'campus': 'Vancouver',
+               'courseDetails': 'An intermediate level investigation of '
+                                'interactivity explored through media, in the '
+                                'context of current display technologies '
+                                'relevant to Interactive Arts and Design. '
+                                'Examines recombinant, computational and '
+                                'compositional structures related to image, '
+                                'sound and video. Students explore video '
+                                'within technologies ranging from cell phones '
+                                'and mobile locative media, and hand held and '
+                                'wearable devices, to 3D immersive virtual '
+                                'and/or networked environments, video art '
+                                'installations, multiple scales of display '
+                                'technology, and responsive spaces. Students '
+                                'will design, produce and critically appraise '
+                                'work.',
+               'days': 'Th',
+               'email': 'wodom@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Exercises and Presentations',
+                                 'weight': '65%'},
+                             {'description': 'Final Project', 'weight': '35%'}],
+               'name': 'William Odom',
+               'prerequisites': 'Completion of 60 units, including IAT 344.',
+               'startTime': '17:30',
+               'title': 'Interactive Video',
+               'units': '3'},
+    '452': {   'campus': 'Vancouver',
+               'courseDetails': 'Introduces approaches to customizing and '
+                                'developing software applications as '
+                                'design-support tools to be employed in '
+                                'dynamic design environments comprising '
+                                'people, other tools, and their interactions '
+                                'in relation to the tasks to be performed. '
+                                'Discusses effective strategies for software '
+                                'development to find the best matching '
+                                'solutions for a given situation and applies '
+                                'the select methods in software design, '
+                                'prototyping, and evaluation. Makes use of '
+                                'software development processes, languages, '
+                                'and notations in representing design of the '
+                                'tools being developed. Experiments with '
+                                'contemporary systems such as drafting tools '
+                                '(CAD), authoring applications (for games, '
+                                'Websites, animations), parametric '
+                                'design-modeling systems, etc.; and searches '
+                                'their potentials to enhance design '
+                                'environments.',
+               'days': 'Th',
+               'email': 'herhan@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignment', 'weight': '5%'},
+                             {'description': 'Quizzes (x2)', 'weight': '10%'},
+                             {'description': 'Mid Term Exam', 'weight': '30%'},
+                             {'description': 'Course Project', 'weight': '50%'},
+                             {   'description': 'Readings - Participation',
+                                 'weight': '5%'}],
+               'name': 'Halil Erhan',
+               'prerequisites': 'Completion of 60 units, including IAT 351.',
+               'startTime': '17:30',
+               'title': 'Developing Design Tools',
+               'units': '3'},
+    '488': {   'campus': 'Vancouver',
+               'courseDetails': 'Independent reading and research topics '
+                                'selected in consultation with individual '
+                                'members of the IAT faculty. This course can '
+                                'be repeated for credit up to a maximum of '
+                                'three times, if topic studied is different. '
+                                'Variable credit units: 1, 2, 3, 4, 5, 6.',
+               'days': 'Th',
+               'email': 'herhan@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {'description': 'Assignment', 'weight': '5%'},
+                             {'description': 'Quizzes (x2)', 'weight': '10%'},
+                             {'description': 'Mid Term Exam', 'weight': '30%'},
+                             {'description': 'Course Project', 'weight': '50%'},
+                             {   'description': 'Readings - Participation',
+                                 'weight': '5%'}],
+               'name': 'Halil Erhan',
+               'prerequisites': 'Completion of 69 units. No more than six '
+                                'units of Directed Studies may be taken, and '
+                                'permission of the instructor and school are '
+                                'required.',
+               'startTime': '17:30',
+               'title': 'Directed Studies',
+               'units': '3'},
+    '499': {   'campus': 'Vancouver',
+               'courseDetails': 'Students will complete a project of '
+                                'significant size and scope that allows them '
+                                'to bring together skills and knowledge '
+                                'learned across a variety of courses in SIAT. '
+                                'They will produce a design, media, or '
+                                'interactive system artifact that is of a high '
+                                'caliber ("portfolio\' quality) along with a '
+                                'detailed report of the project activities '
+                                'completed throughout the term, the methods or '
+                                'processes used, the knowledge learned, and a '
+                                'description of the final outcomes. Projects '
+                                'will be presented publicly at an '
+                                'end-of-the-term graduation showcase. ',
+               'days': 'Th',
+               'email': 'cneustae@sfu.ca',
+               'endTime': '21:20',
+               'grades': [   {   'description': 'Project Proposal',
+                                 'weight': '10'},
+                             {   'description': 'Midterm Portfolio',
+                                 'weight': '40'},
+                             {'description': 'Final Project', 'weight': '50'}],
+               'name': 'Carman Neustaedter',
+               'prerequisites': 'Completion of 90 credits (ensuring a 4th year '
+                                'equivalent student), including 18 upper '
+                                'division IAT units plus IAT 309W. Enrollment '
+                                'is competitive- each term we will enroll a '
+                                'maximum of 20 students or team based on the '
+                                'strongest student project ideas and CGPA.',
+               'startTime': '17:30',
+               'title': 'Graduation Project',
+               'units': '6'}}
