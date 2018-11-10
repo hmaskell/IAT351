@@ -17,7 +17,7 @@
 
 body {
     font-size: 0.85rem;
-    letter-spacing: 0.08rem;
+    letter-spacing: 0.06rem;
     color: rgb(80, 80, 80);
     margin: 0;
 }
@@ -31,23 +31,23 @@ body {
 
 a {
     text-decoration: none;
-    color: #d1b3c4;
+    color: #4fb3bf;
     font-weight: bold;
 }
 
 a:active {
-    color: #e8c2ca;
+    color: #4fb3bf;
 }
 
 /* aHov for styleguide */
 a:hover, a:focus, .aHov {
-    color: #e8c2ca;
+    color: #95dde5;
 }
 
 /* LIST styling */
 
 li {
-    color: #b392ac;
+    color: #4fb3bf;
     margin: 1rem;
 }
 
@@ -85,6 +85,10 @@ h2 {
 /* navigation bar */
 
 /* nav container top of every page */
+.headerTitle {
+    color: #FFFFFF;
+}
+
 .navTop {
     position: relative;
     top: 0;
@@ -122,7 +126,7 @@ h2 {
 
 /* when navitem clicked */
 .navItem:active {
-    color:#e8c2ca;
+    color:#4fb3bf;
 }
 
 /* hover and focus state of navigation items (border of the top shown) */
@@ -148,6 +152,16 @@ footer {
     padding: 2rem;
 }
 
+footer>p{
+    color:#005662;
+}
+
+
+.personalInfo{
+    border: 1px solid #4fb3bf;
+    -webkit-box-shadow: 0.2rem 0.2rem #4fb3bf;
+    box-shadow: 0.2rem 0.2rem #4fb3bf;
+}
 
 
 /* adjusting to one column for mobile devices */
