@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", Geneva, Tahoma, sans-serif;
+}
+
+/* Roboto as all fonts - Material-ish theme */
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-size: 0.85rem;
+    letter-spacing: 0.08rem;
+    color: rgb(80, 80, 80);
+    margin: 0;
+}
+
+/* COLOR SCHEME
+   PRIMARY #00838f
+   LIGHT #4fb3bf
+   DARK #005662 */
+
+/* HYPERLINKS */
+
+a {
+    text-decoration: none;
+    color: #d1b3c4;
+    font-weight: bold;
+}
+
+a:active {
+    color: #e8c2ca;
+}
+
+/* aHov for styleguide */
+a:hover, a:focus, .aHov {
+    color: #e8c2ca;
+}
+
+/* LIST styling */
+
+li {
+    color: #b392ac;
+    margin: 1rem;
+}
+
+
+/* PARAGRAPHS / one lines */
+p {
+    padding: 0.25rem;
+    max-width: 40rem;
+}
+
+/* purpose of making inline text content bold */
+.boldFont {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #005662;
+}
+
+/* HEADINGS */
+
+h1 {
+    font-size: 1.1rem;
+    color: #005662;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 0.9rem;
+    color: #005662;
+    margin: 2rem 0 0.5rem 0;
+}
+
+
+/* navigation bar */
+
+/* nav container top of every page */
+.navTop {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0 1rem;
+    background-color: #00838f;
+    /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* navigation items separate from the logo. actionable hyperlinks */
+.navBar {
+    align-self: center;
+    display: flex;
+    flex-basis: 40%;
+}
+
+/* individual navigation items */
+.navItem{
+    display: inline-block;
+    margin: .2rem;
+    padding: 0.8rem; 
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    text-align: right;
+    align-content: space-between;
+    flex-basis: 50%;
+    font-weight: bold;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+/* when navitem clicked */
+.navItem:active {
+    color:#e8c2ca;
+}
+
+/* hover and focus state of navigation items (border of the top shown) */
+
+/* defining the centered "grid" for every page - margins on each side*/
+.content {
+    margin: 5% 15% 5% 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* for defining rows with flex - will allow space between them in a row*/
+.rowofx, .img-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    margin: 10rem auto 3rem auto;
+    width: 100%;
+    padding: 2rem;
+}
+
+
+
+/* adjusting to one column for mobile devices */
+
+@media all and (max-width: 650px) {
+
+    body {
+        font-size: .9rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .navTop {
+        top: 2rem;
+        flex-direction: column;
+    }
+
+    .navbar {
+        margin-top: 1rem;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navItem {
+        flex: 40%;
+    }
+
+    .navImg {
+        top: 1.5rem;
+    }
+
+    .center-grid {
+        margin: 1rem;
+    }
+
+}
