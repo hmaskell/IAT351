@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Roboto", Geneva, Tahoma, sans-serif;
+    font-family: "Roboto-Light", Geneva, Tahoma, sans-serif;
 }
 
 /* Roboto as all fonts - Material-ish theme */
@@ -23,31 +23,31 @@ body {
 }
 
 /* COLOR SCHEME
-   PRIMARY #00838f
-   LIGHT #4fb3bf
-   DARK #005662 */
+   PRIMARY #0277BD
+   LIGHT #58A5F0
+   DARK #004C8C */
 
 /* HYPERLINKS */
 
 a {
     text-decoration: none;
-    color: #4fb3bf;
+    color: #0277BD;
     font-weight: bold;
 }
 
 a:active {
-    color: #4fb3bf;
+    color: #004C8C;
 }
 
 /* aHov for styleguide */
 a:hover, a:focus, .aHov {
-    color: #95dde5;
+    color: #44bfdd;
 }
 
 /* LIST styling */
 
 li {
-    color: #4fb3bf;
+    color: #0277BD;
     margin: 1rem;
 }
 
@@ -62,22 +62,21 @@ p {
 .boldFont {
     font-size: 1rem;
     font-weight: bolder;
-    color: #005662;
+    color: #0277BD;
 }
 
 /* HEADINGS */
 
 h1 {
     font-size: 1.1rem;
-    color: #005662;
-    font-weight: bold;
+    color: #0277BD;
     margin-bottom: 2rem;
     text-transform: uppercase;
 }
 
 h2 {
     font-size: 0.9rem;
-    color: #005662;
+    color: #0277BD;
     margin: 2rem 0 0.5rem 0;
 }
 
@@ -86,7 +85,8 @@ h2 {
 
 /* nav container top of every page */
 .headerTitle {
-    color: #FFFFFF;
+    color: #0277BD;
+    letter-spacing: 0.25rem;
 }
 
 .navTop {
@@ -95,9 +95,7 @@ h2 {
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding: 0 1rem;
-    background-color: #00838f;
-    /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    padding: 0 1rem;    
     align-items: center;
     justify-content: space-between;
 }
@@ -114,7 +112,7 @@ h2 {
     display: inline-block;
     margin: .2rem;
     padding: 0.8rem; 
-    color: #FFFFFF;
+    color: #58A5F0;
     font-size: 0.7rem;
     text-align: right;
     align-content: space-between;
@@ -129,13 +127,22 @@ h2 {
     color:#4fb3bf;
 }
 
-/* hover and focus state of navigation items (border of the top shown) */
+.pageContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 3%;
+    background-color: #58A5F0;
+}
 
 /* defining the centered "grid" for every page - margins on each side*/
 .content {
-    margin: 5% 15% 5% 15%;
+    margin: 5%;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 /* for defining rows with flex - will allow space between them in a row*/
@@ -153,15 +160,10 @@ footer {
 }
 
 footer>p{
-    color:#005662;
+    color:#58A5F0;
 }
 
 
-.personalInfo{
-    border: 1px solid #4fb3bf;
-    -webkit-box-shadow: 0.2rem 0.2rem #4fb3bf;
-    box-shadow: 0.2rem 0.2rem #4fb3bf;
-}
 
 
 /* adjusting to one column for mobile devices */
@@ -174,7 +176,6 @@ footer>p{
     }
 
     .navTop {
-        top: 2rem;
         flex-direction: column;
     }
 
