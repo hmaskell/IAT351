@@ -1,47 +1,58 @@
 * {
     box-sizing: border-box;
-    font-family: "Roboto-Light", Geneva, Tahoma, sans-serif;
+    /* font-family: "Roboto", serif, Geneva, Tahoma, sans-serif; */
+    font-family: 'Roboto-Light', sans-serif;
 }
 
-/* Roboto as all fonts - Material-ish theme */
 @font-face {
-    font-family: "Roboto-Light";
+    font-family: 'Roboto-Light';
     src: url(../fonts/Roboto-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Roboto-Bold";
+    font-family: 'Roboto-Bold';
     src: url(../fonts/Roboto-Bold.ttf);
     font-weight: bold;
-}
+    font-style: normal;
+} 
 
 body {
     font-size: 0.85rem;
-    letter-spacing: 0.06rem;
+    /* letter-spacing: 0.06rem; */
     color: rgb(80, 80, 80);
     margin: 0;
 }
 
 /* COLOR SCHEME
-   PRIMARY #0277BD
-   LIGHT #58A5F0
-   DARK #004C8C */
+
+    BLUE
+    PRIMARY #0277BD
+    LIGHT #58A5F0
+    DARK #004C8C 
+    
+    SECONDARY ORANGE
+    PRIMARY #F8C077
+    LIGHT #FBD8AA
+    DARK #F59D35
+*/
 
 /* HYPERLINKS */
 
 a {
     text-decoration: none;
-    color: #0277BD;
+    color: #58A5F0;
     font-weight: bold;
 }
 
 a:active {
-    color: #004C8C;
+    color: #FF9B21;
 }
 
 /* aHov for styleguide */
 a:hover, a:focus, .aHov {
-    color: #44bfdd;
+    color: #FF9B21;
 }
 
 /* LIST styling */
@@ -49,6 +60,8 @@ a:hover, a:focus, .aHov {
 li {
     color: #0277BD;
     margin: 1rem;
+    list-style-type: none;
+    margin: 0.5rem;
 }
 
 
@@ -56,28 +69,31 @@ li {
 p {
     padding: 0.25rem;
     max-width: 40rem;
+    font-size: 0.7rem;
 }
 
 /* purpose of making inline text content bold */
 .boldFont {
     font-size: 1rem;
-    font-weight: bolder;
+    font-weight: bold;
     color: #0277BD;
 }
 
 /* HEADINGS */
 
 h1 {
-    font-size: 1.1rem;
-    color: #0277BD;
-    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #F59D35;
+    margin: 1.5rem 0 .5rem 0;
     text-transform: uppercase;
+    letter-spacing: .08rem;
 }
 
 h2 {
     font-size: 0.9rem;
-    color: #0277BD;
-    margin: 2rem 0 0.5rem 0;
+    color: rgb(80, 80, 80);
+    margin-top: .2rem;
+    letter-spacing: .05rem;
 }
 
 
@@ -85,8 +101,9 @@ h2 {
 
 /* nav container top of every page */
 .headerTitle {
-    color: #0277BD;
-    letter-spacing: 0.25rem;
+    font-size: 1rem;
+    color: rgb(80, 80, 80);
+    letter-spacing: 0.2rem;
 }
 
 .navTop {
@@ -94,8 +111,7 @@ h2 {
     top: 0;
     display: flex;
     flex-direction: row;
-    margin: 0;
-    padding: 0 1rem;    
+    margin: 0; 
     align-items: center;
     justify-content: space-between;
 }
@@ -104,22 +120,28 @@ h2 {
 .navBar {
     align-self: center;
     display: flex;
-    flex-basis: 40%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 /* individual navigation items */
 .navItem{
     display: inline-block;
     margin: .2rem;
-    padding: 0.8rem; 
     color: #58A5F0;
     font-size: 0.7rem;
-    text-align: right;
+    letter-spacing: .15rem;
+    text-align: center;
     align-content: space-between;
-    flex-basis: 50%;
+    flex-basis: 20%;
     font-weight: bold;
     height: 100%;
     text-transform: uppercase;
+}
+
+#searchIcon {
+    fill: #58A5F0;
+    width: 20%;
 }
 
 /* when navitem clicked */
@@ -127,14 +149,26 @@ h2 {
     color:#4fb3bf;
 }
 
-.pageContainer {
-    display: flex;
-    flex-direction: row;
+hr {
+    border: 0;
+    border-top: 1px solid #004C8C;
+    margin-top: 1.5rem;
 }
 
 .sidebar {
     width: 3%;
     background-color: #58A5F0;
+}
+
+.breadcrumb{
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .15rem;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: row;
 }
 
 /* defining the centered "grid" for every page - margins on each side*/
@@ -151,6 +185,10 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.pageContent {
+    margin-top: 5%;
 }
 
 footer {
