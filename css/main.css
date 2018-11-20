@@ -237,27 +237,50 @@ footer>p{
 
 .first-level-progress {
     width:50%;
+    padding-right:1rem;
 }
 
-.first-level-progress-banner {
+.banner {
     padding: .8rem;
-    background: #0277BD;
     text-align: center;
     display: flex;
     margin-top: .6rem;
 }
+
+.first-level-progress-banner {
+    background: #0277BD;
+}
+
+.second-level-progress-banner {
+    background: #58A6D6;
+}
+
+.upper-level-progress-banner {
+    background: #CBE3F1;
+}
+
 
 .recommendations {
     width:50%;
     display: block;
+    padding-left: 1rem;
 }
 
 .first-recommendation {
     padding: .8rem;
-    background: #0277BD;
+    background: #CBE3F1;
     text-align: center;
     display: flex;
     margin-top: .6rem;
+}
+
+.recommendation-details {
+    margin: .5rem 1rem;
+}
+
+.more-info-link {
+    float: right;
+    color: #0277BD;
 }
 
 .h3-academicprogress {
@@ -282,7 +305,7 @@ footer>p{
     margin: .5rem 1rem;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-content: flex-start;
     vertical-align: middle;
     
 }
@@ -305,6 +328,10 @@ footer>p{
     padding-top: .5rem;
 }
 
+.not-implemented {
+    margin: 7rem;
+    margin-left: 35%;
+}
 
 
 /* adjusting to one column for mobile devices */
