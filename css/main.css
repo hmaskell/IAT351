@@ -323,6 +323,42 @@ footer>p{
     margin-top: .6rem;
 }
 
+.first-level-checklist {
+    display:none;
+}
+
+.second-level-checklist {
+    display:none;
+}
+
+.third-level-checklist {
+    display:none;
+}
+
+.art-checklist {
+   display:none;
+}
+
+.sci-checklist {
+   display:none;
+}
+
+.media-arts-checklist {
+    display:none;
+}
+
+.design-checklist {
+    display:none;
+}
+
+.interactive-systems-checklist {
+    display:none;
+}
+
+.recommendation-details{
+    display: none;
+}
+
 .checklist-item {
     margin: .5rem 1rem;
     display: flex;
