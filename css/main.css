@@ -309,6 +309,9 @@ footer>p{
     background: #97C8E5;
 }
 
+.active, .first-recommendation:hover {
+    background: #97C8E5
+}
 
 .recommendations {
     width:50%;
