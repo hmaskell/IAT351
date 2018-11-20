@@ -235,7 +235,7 @@ footer>p{
 
 /* academic progress */
 
-.first-level-progress {
+.progress {
     width:50%;
     padding-right:1rem;
 }
@@ -247,6 +247,12 @@ footer>p{
     margin-top: .6rem;
 }
 
+.mini-banner {
+    width: 24%;
+    height: 5rem;
+    display: inline-block;
+}
+
 .first-level-progress-banner {
     background: #0277BD;
 }
@@ -256,6 +262,22 @@ footer>p{
 }
 
 .upper-level-progress-banner {
+    background: #CBE3F1;
+}
+
+.art-sci-progress-banner {
+    background: #CBE3F1;
+}
+
+.media-arts-progress-banner {
+    background: #CBE3F1;
+}
+
+.design-progress-banner {
+    background: #CBE3F1;
+}
+
+.interactive-systems-progress-banner {
     background: #CBE3F1;
 }
 
