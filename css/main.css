@@ -257,28 +257,56 @@ footer>p{
     background: #0277BD;
 }
 
+.active, .first-level-progress-banner:hover {
+    background: #085F93;
+}
+
 .second-level-progress-banner {
     background: #58A6D6;
+}
+
+.active, .second-level-progress-banner:hover {
+    background: #97C8E5;
 }
 
 .upper-level-progress-banner {
     background: #CBE3F1;
 }
 
+.active, .upper-level-progress-banner:hover {
+    background: #97C8E5;
+}
+
 .art-sci-progress-banner {
     background: #CBE3F1;
+}
+
+.active, .art-sci-progress-banner:hover {
+    background: #97C8E5;
 }
 
 .media-arts-progress-banner {
     background: #CBE3F1;
 }
 
+.active, .media-arts-progress-banner:hover {
+    background: #97C8E5;
+}
+
 .design-progress-banner {
     background: #CBE3F1;
 }
 
+.active, .design-progress-banner:hover {
+    background: #97C8E5;
+}
+
 .interactive-systems-progress-banner {
     background: #CBE3F1;
+}
+
+.active, .interactive-systems-progress-banner:hover {
+    background: #97C8E5;
 }
 
 
@@ -324,39 +352,57 @@ footer>p{
 }
 
 .first-level-checklist {
-    display:none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
 }
 
 .second-level-checklist {
-    display:none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;    
 }
 
 .third-level-checklist {
-    display:none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;   
 }
 
 .art-checklist {
-   display:none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
 }
 
 .sci-checklist {
-   display:none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
 }
 
 .media-arts-checklist {
-    display:none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
 }
 
 .design-checklist {
-    display:none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
 }
 
 .interactive-systems-checklist {
-    display:none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
 }
 
 .recommendation-details{
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
 }
 
 .checklist-item {
