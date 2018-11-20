@@ -103,6 +103,12 @@ h6 {
     margin: 0;
 }
 
+h7 {
+    font-style: italic;
+    font-size: 0.6rem;
+    color: darkgrey;
+}
+
 /* navigation bar */
 
 /* nav container top of every page */
@@ -131,7 +137,6 @@ h6 {
     color: #58A5F0;
     font-size: 0.6rem;
     font-weight: bold;
-    height: 100%;
     text-transform: uppercase;
 }
 
@@ -186,6 +191,10 @@ h6 {
     align-items: center;
 }
 
+.mainProgress {
+    display: flex;
+}
+
 footer {
     margin: 4rem 0 2rem;
     border-top-color: black;
@@ -226,7 +235,24 @@ footer>p{
 
 /* academic progress */
 
+.first-level-progress {
+    width:50%;
+}
+
 .first-level-progress-banner {
+    padding: .8rem;
+    background: #0277BD;
+    text-align: center;
+    display: flex;
+    margin-top: .6rem;
+}
+
+.recommendations {
+    width:50%;
+    display: block;
+}
+
+.first-recommendation {
     padding: .8rem;
     background: #0277BD;
     text-align: center;
@@ -250,6 +276,33 @@ footer>p{
     float: left;
     width: 10%;
     margin-top: .6rem;
+}
+
+.checklist-item {
+    margin: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    vertical-align: middle;
+    
+}
+
+.checklist-item h7{
+    padding-top: .5rem;
+}
+
+.checklist-item input{
+    margin-top: .5rem;
+}
+
+.more-info-button {
+    background-color: #0277BD;
+    color: #ffffff;
+    font-size: 0.7rem;
+    padding: .2rem .4rem;
+    border-radius: 4px;
+    vertical-align: middle;
+    padding-top: .5rem;
 }
 
 
