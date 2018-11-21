@@ -356,6 +356,7 @@ footer>p{
 .art-checklist, .sci-checklist, .media-arts-checklist,
 .design-checklist, .interactive-systems-checklist, .recommendation-details {
     max-height: 0;
+    max-width: 100%;
     overflow: hidden;
     transition: max-height 0.2 ease-out;
 }
