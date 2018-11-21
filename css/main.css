@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: "Roboto-Light", Geneva, Tahoma, sans-serif;
+    /* border: 1px solid black; */
 }
 
 /* Roboto as all fonts - Material-ish theme */
@@ -247,10 +248,16 @@ footer>p{
     margin-top: .6rem;
 }
 
+.minibanner-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .mini-banner {
     width: 24%;
     height: 5rem;
-    display: inline-block;
 }
 
 .first-level-progress-banner {
@@ -265,52 +272,15 @@ footer>p{
     background: #58A6D6;
 }
 
-.active, .second-level-progress-banner:hover {
-    background: #97C8E5;
-}
-
-.upper-level-progress-banner {
+.upper-level-progress-banner, .art-sci-progress-banner, .media-arts-progress-banner, 
+.design-progress-banner, .interactive-systems-progress-banner {
     background: #CBE3F1;
 }
 
-.active, .upper-level-progress-banner:hover {
+.active, .second-level-progress-banner:hover, .upper-level-progress-banner:hover, .art-sci-progress-banner:hover, 
+.media-arts-progress-banner:hover, .design-progress-banner:hover, .interactive-systems-progress-banner:hover, 
+.first-recommendation:hover {
     background: #97C8E5;
-}
-
-.art-sci-progress-banner {
-    background: #CBE3F1;
-}
-
-.active, .art-sci-progress-banner:hover {
-    background: #97C8E5;
-}
-
-.media-arts-progress-banner {
-    background: #CBE3F1;
-}
-
-.active, .media-arts-progress-banner:hover {
-    background: #97C8E5;
-}
-
-.design-progress-banner {
-    background: #CBE3F1;
-}
-
-.active, .design-progress-banner:hover {
-    background: #97C8E5;
-}
-
-.interactive-systems-progress-banner {
-    background: #CBE3F1;
-}
-
-.active, .interactive-systems-progress-banner:hover {
-    background: #97C8E5;
-}
-
-.active, .first-recommendation:hover {
-    background: #97C8E5
 }
 
 .recommendations {
@@ -329,6 +299,34 @@ footer>p{
 
 .recommendation-details {
     margin: .5rem 1rem;
+}
+
+.class-ratingbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.class-ratingbar h3 {
+    margin-right: auto;
+}
+
+.bar-container {
+    width: 60%;
+    margin-right: 10%;
+}
+
+.bar-empty {
+    overflow: hidden;
+    background-color: #FBD8AA;
+    height: .5rem;
+}
+
+.bar-rating {
+    background-color: #F8C077;
+    height: .5rem;
+
 }
 
 .more-info-link {
@@ -354,55 +352,9 @@ footer>p{
     margin-top: .6rem;
 }
 
-.first-level-checklist {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2 ease-out;
-}
-
-.second-level-checklist {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2 ease-out;    
-}
-
-.third-level-checklist {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2 ease-out;   
-}
-
-.art-checklist {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2 ease-out;
-}
-
-.sci-checklist {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2 ease-out;
-}
-
-.media-arts-checklist {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2 ease-out;
-}
-
-.design-checklist {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2 ease-out;
-}
-
-.interactive-systems-checklist {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2 ease-out;
-}
-
-.recommendation-details{
+.first-level-checklist, .second-level-checklist, .third-level-checklist,
+.art-checklist, .sci-checklist, .media-arts-checklist,
+.design-checklist, .interactive-systems-checklist, .recommendation-details {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2 ease-out;
@@ -411,14 +363,20 @@ footer>p{
 .checklist-item {
     margin: .5rem 1rem;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-content: flex-start;
     vertical-align: middle;
-    
+    text-align: left;
+}
+
+.checklist-item h3{
+    margin-left: 5%;
 }
 
 .checklist-item h7{
     padding-top: .5rem;
+    margin-left: auto;
+    text-align: right;
 }
 
 .checklist-item input{
@@ -433,6 +391,7 @@ footer>p{
     border-radius: 4px;
     vertical-align: middle;
     padding-top: .5rem;
+    margin-left: auto;
 }
 
 .not-implemented {
