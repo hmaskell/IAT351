@@ -59,6 +59,12 @@ p {
     max-width: 40rem;
     font-size: 0.7rem;
     letter-spacing: .03rem;
+    line-height: 1.2rem;
+}
+
+.aboutText {
+    max-width: 25rem;
+    padding: 1rem 0;
 }
 
 /* HEADINGS */
@@ -110,6 +116,7 @@ h7 {
     color: #000;
     letter-spacing: 0.25rem;
     font-size: 1.2rem;
+    transition: ease-in-out 0.2s;
 }
 
 .navTop {
@@ -162,7 +169,7 @@ h7 {
 }
 
 .navActive {
-    color: #0277BD;
+    color: #004C8C;
 }
 
 .pageContainer {
@@ -243,6 +250,10 @@ footer>p{
 .progress {
     width:50%;
     padding-right:1rem;
+}
+
+.courseList {
+    width: 90%;
 }
 
 .banner {
@@ -411,13 +422,20 @@ footer>p{
 
 .more-info-button {
     background-color: #0277BD;
-    color: #ffffff;
-    font-size: 0.7rem;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 0.55rem;
     padding: .2rem .4rem;
     border-radius: 4px;
     vertical-align: middle;
-    padding-top: .5rem;
+    padding-top: .6rem;
     margin-left: 2rem;
+}
+
+.more-info-button:hover{
+    background-color: #58A6D6;
+    color: #FFF;
+    transition: ease-in-out 0.1s;
 }
 
 .not-implemented {
