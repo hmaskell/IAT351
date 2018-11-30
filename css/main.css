@@ -4,18 +4,6 @@
     /* border: 1px solid black; */
 }
 
-/* Roboto as all fonts - Material-ish theme */
-/* @font-face {
-    font-family: "Roboto-Light";
-    src: url(../fonts/Roboto-Light.ttf);
-}
-
-@font-face {
-    font-family: "Roboto-Bold";
-    src: url(../fonts/Roboto-Bold.ttf);
-    font-weight: bold;
-} */
-
 body {
     font-size: 0.85rem;
     letter-spacing: 0.06rem;
@@ -82,7 +70,7 @@ h2 {
 }
 
 h3 {
-    font-size: 0.6rem;
+    font-size: 0.62rem;
     text-transform: uppercase;
 }
 
@@ -107,7 +95,7 @@ h6 {
 h7 {
     font-style: italic;
     font-size: 0.6rem;
-    color: darkgrey;
+    color: rgb(100, 100, 100);
 }
 
 /* navigation bar */
@@ -191,12 +179,18 @@ h7 {
     width: 100%;
 }
 
-/* for defining rows with flex - will allow space between them in a row*/
-.rowofx, .img-content {
+.column {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    /* flex: 100%; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    flex: 50%;
 }
 
 .mainProgress, .courseDetail {
@@ -357,7 +351,7 @@ footer>p{
     margin: .5rem 1rem;
 }
 
-.class-ratingbar{
+.class-ratingbar, .grade-ratingbar{
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -368,9 +362,22 @@ footer>p{
     margin-right: auto;
 }
 
+.grade-ratingbar h3 {
+    margin-right: 2rem;
+}
+
 .bar-container {
     width: 60%;
     margin-right: 10%;
+}
+
+.bar-container2 {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.see-reviews {
+    text-align: right;
 }
 
 .bar-empty {
@@ -416,7 +423,7 @@ footer>p{
     transition: max-height 0.2 ease-out;
 }
 
-.checklist-item {
+.checklist-item, .mark-breakdown{
     margin: .5rem 1rem;
     display: flex;
     justify-content: flex-end;
@@ -424,7 +431,7 @@ footer>p{
     text-align: left;
 }
 
-.checklist-item>h3{
+.checklist-item>h3, .mark-breakdown>h3{
     display: inline;
     overflow: hidden;
     white-space: nowrap;
@@ -434,17 +441,29 @@ footer>p{
     max-width: 50%;
 }
 
-.checklist-item>h7{
+.checklist-item>h7, .mark-breakdown>h7{
     padding-top: .5rem;
     margin-left: auto;
     margin-right: 1rem;
     text-align: right;
 }
 
-/* .checklist-item input{
-    margin-top: .5rem;
-    margin-right: 5%;
-} */
+.mark-breakdown>h3 {
+    margin:0;
+    margin-right: auto;
+    max-width: 75%;
+}
+
+.mark-breakdown>h7 {
+    margin-left:2rem;
+}
+
+/* icons */
+
+.fas fa-caret-down {
+    color: #ffffff;
+    font-size: 3em;
+}
 
 /* CUSTOM CHECKMARK
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
@@ -545,6 +564,7 @@ a.leave-review-button {
     display: inline-block;
     margin: .5rem 0;
     padding-top: .5rem;
+    width: 6rem;
     height: 1.5rem;
 }
 
@@ -570,6 +590,29 @@ hr {
 
 .courseTags{
     text-align: right;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+}
+
+li {
+    margin-left: 0;
+}
+
+.grades {
+    flex: 20%;
+    flex-basis: 20%;
+    margin-right: 2rem;
+}
+
+.grade-reviews {
+    flex: 70%;
+}
+
+.tags>h4{
+    color:#AAA;  
 }
 
 /* return to top button */
@@ -656,13 +699,17 @@ hr {
         width: 3rem;
         margin-left: 0.5rem;
     }
+    
+    .row {
+        flex-direction: column;
+    }
 
-}
+    .column {
+        width: 100%;
+    }
 
+    .grade-reviews {
+        flex: 100%;
+    }
 
-/* icons */
-
-.fas fa-caret-down {
-    color: #ffffff;
-    font-size: 3em;
 }
