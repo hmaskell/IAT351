@@ -290,13 +290,28 @@ footer>p{
     background: #0277BD;
 }
 
-.active, .first-level-progress-banner:hover {
+.first-level-progress-banner:hover, .first-level-progress-banner.active {
     background: #085F93;
     transition: ease-in-out 0.2s;
 }
 
 .second-level-progress-banner {
+    position: relative;
+    background: #97C8E5;
+}
+
+.second-level-progress-banner:hover, .second-level-progress-banner.active {
     background: #58A6D6;
+    transition: ease-in-out 0.2s;
+}
+
+.progress-banner {
+    position: absolute;
+    background-color: #58A6D6;
+    margin: 0;
+    height: 100%;
+    top:0;
+    left:0;
 }
 
 .upper-level-progress-banner, .art-sci-progress-banner, .media-arts-progress-banner, 
@@ -304,9 +319,12 @@ footer>p{
     background: #CBE3F1;
 }
 
-.active, .second-level-progress-banner:hover, .upper-level-progress-banner:hover, .art-sci-progress-banner:hover, 
-.media-arts-progress-banner:hover, .design-progress-banner:hover, .interactive-systems-progress-banner:hover, 
-.first-recommendation:hover {
+.upper-level-progress-banner:hover, .art-sci-progress-banner:hover, .media-arts-progress-banner:hover, 
+.design-progress-banner:hover, .interactive-systems-progress-banner:hover, 
+.first-recommendation:hover,
+.upper-level-progress-banner.active, .art-sci-progress-banner.active, .media-arts-progress-banner.active, 
+.design-progress-banner.active, .interactive-systems-progress-banner.active, 
+.first-recommendation.active {
     background: #97C8E5;
     transition: ease-in-out 0.2s;
 }
@@ -355,7 +373,6 @@ footer>p{
 .bar-rating {
     background-color: #0277BD;
     height: .5rem;
-
 }
 
 .more-info-link {
