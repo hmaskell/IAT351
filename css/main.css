@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
-    font-family: "Roboto-Light", Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     /* border: 1px solid black; */
 }
 
 /* Roboto as all fonts - Material-ish theme */
-@font-face {
+/* @font-face {
     font-family: "Roboto-Light";
     src: url(../fonts/Roboto-Light.ttf);
 }
@@ -14,7 +14,7 @@
     font-family: "Roboto-Bold";
     src: url(../fonts/Roboto-Bold.ttf);
     font-weight: bold;
-}
+} */
 
 body {
     font-size: 0.85rem;
@@ -42,7 +42,7 @@ a:active {
 
 /* aHov for styleguide */
 a:hover, a:focus, .aHov {
-    color: #44bfdd;
+    color: #CBE3F1;
 }
 
 /* LIST styling */
@@ -57,13 +57,8 @@ li {
 p {
     padding: 0.25rem;
     max-width: 40rem;
-}
-
-/* purpose of making inline text content bold */
-.boldFont {
-    font-size: 1rem;
-    font-weight: bolder;
-    color: #0277BD;
+    font-size: 0.7rem;
+    letter-spacing: .03rem;
 }
 
 /* HEADINGS */
@@ -76,10 +71,7 @@ h1 {
 
 h2 {
     font-size: 0.9rem;
-    /*color: #0277BD;*/
-    color: #F59D35;
-    color: #F59D35;
-    font-weight: bolder;
+    margin-top: 2rem;
 }
 
 h3 {
@@ -88,12 +80,13 @@ h3 {
 }
 
 h4 {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
 }
 
 h5 {
     font-size: 0.6rem;
-    color: #F59D35;
+    color: #004C8C;
     letter-spacing: 0.06rem;
     line-height: 1.5rem;
 }
@@ -114,8 +107,9 @@ h7 {
 
 /* nav container top of every page */
 .headerTitle {
-    color: #0277BD;
+    color: #000;
     letter-spacing: 0.25rem;
+    font-size: 1.2rem;
 }
 
 .navTop {
@@ -162,8 +156,13 @@ h7 {
 }
 
 /* when navitem clicked */
-.navItem:active {
-    color:#4fb3bf;
+.navItem:hover {
+    color:#CBE3F1;
+    transition: ease-in-out 0.2s;
+}
+
+.navActive {
+    color: #0277BD;
 }
 
 .pageContainer {
@@ -172,13 +171,13 @@ h7 {
 }
 
 .sidebar {
-    width: 6%;
-    background-color: #F8B86C;
+    width: 3%;
+    background-color: #E3F0FD;
 }
 
 /* defining the centered "grid" for every page - margins on each side*/
 .content {
-    margin: 5% 5% 0;
+    margin: 5% 7%;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -236,6 +235,11 @@ footer>p{
 
 /* academic progress */
 
+.siathead h2{
+    color: #000;
+    margin-bottom: 0;
+}
+
 .progress {
     width:50%;
     padding-right:1rem;
@@ -246,6 +250,17 @@ footer>p{
     text-align: center;
     display: flex;
     margin-top: .6rem;
+}
+
+.banner-left h6, .banner-left h3 {
+    color: #004C8C;
+}
+
+.first-level-progress-banner>.banner-left>h6,
+.first-level-progress-banner>.banner-left>h3,
+.second-level-progress-banner>.banner-left>h6,
+.second-level-progress-banner>.banner-left>h3 {
+    color: #FFF;
 }
 
 .minibanner-row {
@@ -266,6 +281,7 @@ footer>p{
 
 .active, .first-level-progress-banner:hover {
     background: #085F93;
+    transition: ease-in-out 0.2s;
 }
 
 .second-level-progress-banner {
@@ -281,6 +297,7 @@ footer>p{
 .media-arts-progress-banner:hover, .design-progress-banner:hover, .interactive-systems-progress-banner:hover, 
 .first-recommendation:hover {
     background: #97C8E5;
+    transition: ease-in-out 0.2s;
 }
 
 .recommendations {
@@ -288,6 +305,7 @@ footer>p{
     display: block;
     padding-left: 1rem;
 }
+
 
 .first-recommendation {
     padding: .8rem;
@@ -319,12 +337,12 @@ footer>p{
 
 .bar-empty {
     overflow: hidden;
-    background-color: #FBD8AA;
+    background-color: #79B7DC;
     height: .5rem;
 }
 
 .bar-rating {
-    background-color: #F8C077;
+    background-color: #0277BD;
     height: .5rem;
 
 }
