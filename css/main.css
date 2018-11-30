@@ -71,12 +71,13 @@ p {
 
 h1 {
     font-size: 1.5rem;
-    color: #0277BD;
+    color: rgb(75, 75, 75);
     text-transform: uppercase;
+    margin-bottom: .5rem;
 }
 
 h2 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-top: 2rem;
 }
 
@@ -198,8 +199,12 @@ h7 {
     align-items: center;
 }
 
-.mainProgress {
+.mainProgress, .courseDetail {
     display: flex;
+}
+
+.courseDetail {
+    justify-content: space-between;
 }
 
 footer {
@@ -327,6 +332,10 @@ footer>p{
 .first-recommendation.active {
     background: #97C8E5;
     transition: ease-in-out 0.2s;
+}
+
+.courseBanner {
+    background: rgba(88, 164, 240, 0.40);
 }
 
 .recommendations {
@@ -515,7 +524,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
     color: #AAA;
 }
 
-.more-info-button {
+.more-info-button, .leave-review-button {
     background-color: #0277BD;
     color: #FFF;
     text-transform: uppercase;
@@ -524,7 +533,16 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
     border-radius: 4px;
     vertical-align: middle;
     padding-top: .6rem;
+}
+
+.more-info-button {
     margin-left: 2rem;
+}
+
+a.leave-review-button {
+    display: inline-block;
+    margin: .5rem 0;
+    padding-top: .5rem;
 }
 
 .more-info-button:hover{
@@ -533,10 +551,41 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
     transition: ease-in-out 0.1s;
 }
 
+.quickMenu {
+    padding: 1rem;
+}
+
+.quickMenu a {
+    font-size: .6rem;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #AAA;
+    margin: 1rem 0;
+}
+
+.courseTags{
+    text-align: right;
+}
+
+/* return to top button */
+#returnTop {
+    position: fixed;
+    padding: 0.5rem;
+    bottom: 2%;
+    right: 5%;
+    font-size: .6rem;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #58A5F0;
+}
+
 .not-implemented {
     margin: 7rem;
     margin-left: 35%;
 }
+
 
 
 /* adjusting to one column for mobile devices */
