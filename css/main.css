@@ -528,11 +528,13 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
     background-color: #0277BD;
     color: #FFF;
     text-transform: uppercase;
-    font-size: 0.55rem;
+    text-align: center;
+    font-size: 0.5rem;
     padding: .2rem .4rem;
     border-radius: 4px;
     vertical-align: middle;
     padding-top: .6rem;
+    width: 5rem;    
 }
 
 .more-info-button {
@@ -543,6 +545,7 @@ a.leave-review-button {
     display: inline-block;
     margin: .5rem 0;
     padding-top: .5rem;
+    height: 1.5rem;
 }
 
 .more-info-button:hover{
@@ -590,11 +593,22 @@ hr {
 
 /* adjusting to one column for mobile devices */
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 1050px) {
+        
+    .more-info-button {
+        width: 4rem;
+        margin-left: 0.5rem;
+    }
+
+}
+
+
+@media all and (max-width: 680px) {
 
     body {
         font-size: .9rem;
         letter-spacing: 0.05rem;
+        overflow-x: hidden
     }
 
     .navTop {
@@ -619,6 +633,28 @@ hr {
 
     .center-grid {
         margin: 1rem;
+    }
+
+    .mainProgress, .courseDetail{
+        flex-direction: column;
+    }
+
+    .footer-links{
+        display: block;
+    }
+
+    .progress, .recommendations{
+        width: 100%;
+        padding: 0;
+    }
+
+    .checkContainer {
+        padding: 15px;
+    }
+    
+    .more-info-button {
+        width: 3rem;
+        margin-left: 0.5rem;
     }
 
 }
