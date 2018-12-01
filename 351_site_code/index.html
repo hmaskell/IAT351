@@ -1143,6 +1143,7 @@
                     var currval = miniBannerGuys[currkey]
                     var curr = document.getElementsByClassName(currval)[0];
                     curr.style.maxHeight = null;
+                    this.classList.toggle("inactive");
                 });
                 var key = elem.classList[0];
                 var value = miniBannerGuys[key];
@@ -1155,21 +1156,7 @@
             })
         });
 
-       /* for (i = 0; i < coll.length-1; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var key = coll[i].classList[0];
-                var value = miniBannerGuys[key];
-                console.log(coll[i].classList);
-               // if (coll[i] == "first-level-progress-banner")
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
-        }*/
+
     </script>
 
 </body>
