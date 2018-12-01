@@ -1121,12 +1121,47 @@
 
     <script>
         // var coll = document.getElementsByClassName("banner");
-        var coll = document.querySelectorAll('.banner, .mini-banner');
+        var coll = document.querySelectorAll('.banner');
         var i;
+        
+        var miniBannerGuys = {
+            "first-level-progress-banner" : "first-level-checklist",
+            "second-level-progress-banner" : "second-level-checklist",
+            "upper-level-progress-banner" : "third-level-checklist",
+            "art-sci-progress-banner" : "art-checklist",
+            "media-arts-progress-banner" : "media-arts-checklist",
+            "design-progress-banner" : "design-checklist",
+            "interactive-systems-progress-banner" : "interactive-systems-checklist",
+            "first-recommendation" : "recommendation-details"
+        }
+        
+        coll.forEach(function(elem){
+            elem.addEventListener("click", function () {
+                this.classList.toggle("active");
+                coll.forEach(function(item){
+                    var currkey = item.classList[0];
+                    var currval = miniBannerGuys[currkey]
+                    var curr = document.getElementsByClassName(currval)[0];
+                    curr.style.maxHeight = null;
+                });
+                var key = elem.classList[0];
+                var value = miniBannerGuys[key];
+                var content = document.getElementsByClassName(value)[0];
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            })
+        });
 
-        for (i = 0; i < coll.length; i++) {
+       /* for (i = 0; i < coll.length-1; i++) {
             coll[i].addEventListener("click", function () {
                 this.classList.toggle("active");
+                var key = coll[i].classList[0];
+                var value = miniBannerGuys[key];
+                console.log(coll[i].classList);
+               // if (coll[i] == "first-level-progress-banner")
                 var content = this.nextElementSibling;
                 if (content.style.maxHeight) {
                     content.style.maxHeight = null;
@@ -1134,7 +1169,7 @@
                     content.style.maxHeight = content.scrollHeight + "px";
                 }
             });
-        }
+        }*/
     </script>
 
 </body>
