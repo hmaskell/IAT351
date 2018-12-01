@@ -51,7 +51,7 @@ p {
 }
 
 .aboutText {
-    max-width: 25rem;
+    max-width: 30rem;
     padding: 1rem 0;
 }
 
@@ -67,6 +67,7 @@ h1 {
 h2 {
     font-size: 0.8rem;
     margin-top: 2rem;
+    letter-spacing: 0.05rem;
 }
 
 h3 {
@@ -190,6 +191,11 @@ h7 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.spaced-out {
+    justify-content: space-between;
+    max-width: 80%;
 }
 
 .mainProgress, .courseDetail {
@@ -760,6 +766,20 @@ select {
 .not-implemented {
     margin: 7rem;
     margin-left: 35%;
+}
+
+.about-page>h2{
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.about-page h3{
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+.about-page {
+    flex: 2;
 }
 
 
