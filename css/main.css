@@ -620,13 +620,13 @@ li {
 }
 
 .grades {
-    flex: 2;
+    flex: 4;
     flex-basis: 20%;
     margin-right: 2rem;
 }
 
 .grade-reviews {
-    flex:2;
+    flex:5;
 }
 
 .tags>h4{
